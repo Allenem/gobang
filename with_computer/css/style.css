@@ -1,0 +1,11 @@
+*{
+	margin:0;
+	padding:0;
+}
+canvas{
+	border:2px solid green;
+	display: block;
+	margin: 10px auto;
+	box-shadow: -2px -2px 2px #EFEFEF, 10px 10px 10px #B9B9B9;
+	color: #fff;
+}
