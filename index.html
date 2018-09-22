@@ -17,13 +17,11 @@
 		margin:20px auto;
 		padding:20px;
 	}
-	a{
+	a>button{
 		position:relative;
 		float:left;
 		left:130px;
 		margin:0 20px;
-	}
-	a>button{
 		font:bold 15px Helvetica;
 		width: 98px;
 		height:62px;
@@ -37,6 +35,8 @@
 		transition-duration: 0.2s;
 		cursor:pointer;}
     a>button:active{background:#CC3333;}
+    #watch{position:relative;left:200px;bottom:0px;text-decoration-line:none;font:bold 15px Helvetica;color:#aaa;}
+    #watch:hover{background:#555;}
 	</style>
 </head>
 <body>
@@ -44,11 +44,17 @@
 	<div id="container">
 		<h2 align="center">简介：</h2><br>
 		<p>&nbsp&nbsp&nbsp&nbsp五子棋（两人对弈的策略型棋类游戏）是世界智力运动会竞技项目之一，是一种两人对弈的纯策略型棋类游戏，是世界智力运动会竞技项目之一，通常双方分别使用黑白两色的棋子，下在棋盘直线与横线的交叉点上，先形成5子连线者获胜。<br>
-		&nbsp&nbsp&nbsp&nbsp棋具与围棋通用，起源于中国上古时代的传统黑白棋种之一。主要流行于华人和汉字文化圈的国家以及欧美一些地区，是世界上最古老的棋。容易上手，老少皆宜，而且趣味横生，引人入胜；不仅能增强思维能力，提高智力，而且富含哲理，有助于修身养性。已在各个游戏平台有应用。</p><br>
+		&nbsp&nbsp&nbsp&nbsp棋具与围棋通用，起源于中国上古时代的传统黑白棋种之一。主要流行于华人和汉字文化圈的国家以及欧美一些地区，是世界上最古老的棋。容易上手，老少皆宜，而且趣味横生，引人入胜；不仅能增强思维能力，提高智力，而且富含哲理，有助于修身养性。已在各个游戏平台有应用。</p>
 		<p align="right">——摘自百度百科</p>
 		<h2 align="center">选项：</h2><br>
 		<a href="with_computer/index.html"><button >人机对战</button></a>
 		<a href="with_human/index.html"><button >玩家对战</button></a>
+		<br><br><br>
+		<a id="watch" href="https://github.com/Allenem/gobang"><svg version="1.1" width="14" height="14" viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+		<span>点我查看源代码</span>
+		</a>
+		<p align="right" style="font-size:10px">© Allenem</p>
 	</div>
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
