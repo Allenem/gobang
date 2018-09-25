@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+}
+#qipan{
+	margin:10px auto;
+	width:575px;
+	height: 575px;
+	/*border:1px solid;*/
+	background: url(../image/bg1.png);
+	/*overflow: hidden;/*防止被canvas撑开*/*/
+}
+#can{
+	margin:0px auto;
+	border:2px solid green;
+	display: block;
+	box-shadow: -10px -10px 10px #EFEFEF, 10px 10px 10px #B9B9B9;
+}
+#tip{
+	margin:0 auto;
+	width:100px;
+	height:40px;
+	text-align: center;
+	color:#f00;
+	border:1px solid green;
+	line-height: 40px;
+	display: block;
+}

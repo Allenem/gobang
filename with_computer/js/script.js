@@ -114,6 +114,7 @@ chess.onclick = function(e){
 		return;
 	}
 	if(!me){
+		computerAI();
 		return;
 	}
 	var x = e.offsetX;
